@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Botanical Bean | Artisanal Cafe & Eatery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-serif { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-[#FAF7F2] text-[#2C2724] antialiased selection:bg-[#EAD9C6] selection:text-[#2C2724]">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-[#2D3E33] text-[#FAF7F2] text-xs font-medium py-2 px-4 text-center tracking-wider flex items-center justify-center gap-2">
+    <span>☕ Handcrafted Single-Origin Roasts</span>
+    <span class="opacity-40">•</span>
+    <span>🌿 Cozy Workspaces & Pet Friendly</span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-[#FAF7F2]/90 backdrop-blur-md border-b border-[#E8DFD3]">
+    <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="font-serif text-2xl md:text-3xl font-bold tracking-tight text-[#2D3E33]">
+        Botanical<span class="italic text-[#9C6D3B]">Bean.</span>
+      </a>
+      <nav class="hidden md:flex space-x-8 text-sm font-semibold text-[#5A5048]">
+        <a href="#about" class="hover:text-[#2D3E33] transition-colors">Our Story</a>
+        <a href="#menu" class="hover:text-[#2D3E33] transition-colors">Signature Menu</a>
+        <a href="#ambiance" class="hover:text-[#2D3E33] transition-colors">The Vibe</a>
+        <a href="#visit" class="hover:text-[#2D3E33] transition-colors">Visit</a>
+      </nav>
+      <a href="#visit" class="bg-[#2D3E33] text-[#FAF7F2] px-6 py-2.5 rounded-full font-medium text-xs tracking-wider uppercase hover:bg-[#3D5245] transition-all shadow-sm hover:shadow-md">
+        Reserve Table
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-12 pb-20 md:py-24 px-6 overflow-hidden">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div>
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EFE7DC] text-[#9C6D3B] text-xs font-semibold tracking-wider uppercase mb-6">
+          ✨ Peaceful Mornings & Great Coffee
+        </span>
+        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.15] text-[#1E1B18] mb-6">
+          Slow down, sip slow, & savor every <span class="italic font-normal text-[#9C6D3B]">moment.</span>
+        </h1>
+        <p class="text-[#6B6158] text-base md:text-lg leading-relaxed mb-8 max-w-lg">
+          A sun-drenched sanctuary offering artisanal pour-overs, handmade flaky sourdough pastries, and quiet corners meant for easy reading and good conversations.
+        </p>
+        <div class="flex flex-wrap gap-4 items-center">
+          <a href="#menu" class="bg-[#9C6D3B] hover:bg-[#865B2E] text-white px-7 py-3.5 rounded-full font-semibold text-sm transition-all shadow-sm hover:shadow-md">
+            View Full Menu
+          </a>
+          <a href="#visit" class="bg-white border border-[#D9CEBF] text-[#2C2724] hover:bg-[#F3EDE3] px-7 py-3.5 rounded-full font-semibold text-sm transition-all">
+            Plan Your Visit
+          </a>
+        </div>
+        <!-- Social Proof Stats -->
+        <div class="mt-12 pt-8 border-t border-[#E8DFD3] grid grid-cols-3 gap-6 text-left">
+          <div>
+            <p class="font-serif text-2xl font-bold text-[#2D3E33]">4.9 ★</p>
+            <p class="text-xs text-[#8A7D71] mt-0.5">Guest Reviews</p>
+          </div>
+          <div>
+            <p class="font-serif text-2xl font-bold text-[#2D3E33]">100%</p>
+            <p class="text-xs text-[#8A7D71] mt-0.5">Arabica Single Origin</p>
+          </div>
+          <div>
+            <p class="font-serif text-2xl font-bold text-[#2D3E33]">Daily</p>
+            <p class="text-xs text-[#8A7D71] mt-0.5">Fresh Oven Bakes</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visuals Collage -->
+      <div class="relative">
+        <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/5] max-h-[520px] w-full">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80" alt="Cozy Cafe Ambience" class="w-full h-full object-cover">
+        </div>
+        <!-- Floating Taste Badge -->
+        <div class="absolute -bottom-6 -left-6 z-20 bg-white p-4 rounded-2xl shadow-xl border border-[#EFE7DC] hidden sm:flex items-center gap-4 max-w-xs">
+          <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=200&q=80" alt="Latte Art" class="w-14 h-14 rounded-xl object-cover">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-[#9C6D3B]">Bestseller</p>
+            <p class="text-sm font-bold text-[#2C2724]">Vanilla Oat Cortado</p>
+            <p class="text-xs text-[#8A7D71]">Served with house biscotti</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Menu Highlights -->
+  <section id="menu" class="py-20 bg-white border-y border-[#E8DFD3]">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-widest text-[#9C6D3B]">Fresh From The Kitchen</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#2C2724] mt-2 mb-3">Our Daily Signatures</h2>
+        <p class="text-sm text-[#7D7063]">Made fresh upon order using locally sourced organic produce and estate-grown coffee beans.</p>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Card 1 -->
+        <div class="bg-[#FAF7F2] rounded-2xl overflow-hidden border border-[#E8DFD3] hover:shadow-lg transition-all group">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80" alt="Specialty Coffee" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-[#2D3E33] text-xs font-bold px-3 py-1 rounded-full">Artisanal</span>
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-baseline mb-2">
+              <h3 class="font-serif text-lg font-bold text-[#2C2724]">Honey Vanilla Flat White</h3>
+              <span class="font-serif text-[#9C6D3B] font-bold text-lg">₹240</span>
+            </div>
+            <p class="text-xs text-[#6B6158] leading-relaxed mb-4">Double ristretto, velvety steamed milk, infused with raw forest honey and natural vanilla.</p>
+            <span class="text-[11px] font-semibold text-[#2D3E33] bg-[#E8DFD3]/60 px-2.5 py-1 rounded-md">Hot / Iced Available</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-[#FAF7F2] rounded-2xl overflow-hidden border border-[#E8DFD3] hover:shadow-lg transition-all group">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="Almond Croissant" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 right-3 bg-[#9C6D3B] text-white text-xs font-bold px-3 py-1 rounded-full">Chef's Pick</span>
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-baseline mb-2">
+              <h3 class="font-serif text-lg font-bold text-[#2C2724]">Golden Butter Croissant</h3>
+              <span class="font-serif text-[#9C6D3B] font-bold text-lg">₹195</span>
+            </div>
+            <p class="text-xs text-[#6B6158] leading-relaxed mb-4">Slow-fermented laminated dough, hand-rolled daily and baked to flaky golden perfection.</p>
+            <span class="text-[11px] font-semibold text-[#2D3E33] bg-[#E8DFD3]/60 px-2.5 py-1 rounded-md">Fresh 8:00 AM Daily</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-[#FAF7F2] rounded-2xl overflow-hidden border border-[#E8DFD3] hover:shadow-lg transition-all group">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80" alt="Avocado Toast" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-[#2D3E33] text-xs font-bold px-3 py-1 rounded-full">All-Day Brunch</span>
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-baseline mb-2">
+              <h3 class="font-serif text-lg font-bold text-[#2C2724]">Truffle Avocado Tartine</h3>
+              <span class="font-serif text-[#9C6D3B] font-bold text-lg">₹340</span>
+            </div>
+            <p class="text-xs text-[#6B6158] leading-relaxed mb-4">Artisanal sourdough toast, fresh avocado smash, heirloom cherry tomatoes, dukkah spice & white truffle oil.</p>
+            <span class="text-[11px] font-semibold text-[#2D3E33] bg-[#E8DFD3]/60 px-2.5 py-1 rounded-md">Organic Sourdough</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Action -->
+      <div class="text-center mt-12">
+        <a href="#visit" class="inline-flex items-center gap-2 border-b-2 border-[#9C6D3B] pb-1 text-sm font-bold text-[#2C2724] hover:text-[#9C6D3B] transition-colors">
+          Reserve a table to experience the seasonal specials <span>→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cafe Vibe Gallery -->
+  <section id="ambiance" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-[#9C6D3B]">The Aesthetic</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#2C2724] mt-2">Sunlight, Books & Warm Cups</h2>
+        </div>
+        <p class="text-sm text-[#7D7063] max-w-sm mt-3 md:mt-0">Designed as an urban retreat. Sit with your laptop, your journal, or a good friend.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="rounded-2xl overflow-hidden aspect-square border border-[#E8DFD3]">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80" alt="Cafe Seating" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="rounded-2xl overflow-hidden aspect-square border border-[#E8DFD3]">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" alt="Coffee Cup" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="rounded-2xl overflow-hidden aspect-square border border-[#E8DFD3]">
+          <img src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?auto=format&fit=crop&w=600&q=80" alt="Coffee Brewing" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="rounded-2xl overflow-hidden aspect-square border border-[#E8DFD3]">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80" alt="Bakery Items" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit & Reservation Section (Zero Personal Numbers & Generic Location) -->
+  <section id="visit" class="py-20 bg-white border-t border-[#E8DFD3]">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-[#9C6D3B]">Join Us Today</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#2C2724] mt-2 mb-6">A Table Waiting For You</h2>
+        
+        <div class="space-y-6 text-sm text-[#5A5048]">
+          <div class="flex items-start gap-4">
+            <span class="text-xl">📍</span>
+            <div>
+              <p class="font-bold text-[#2C2724]">Location</p>
+              <p>Promenade Galleria, Central Urban District</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="text-xl">⏰</span>
+            <div>
+              <p class="font-bold text-[#2C2724]">Hours of Operation</p>
+              <p>Monday – Friday: 8:00 AM – 10:30 PM</p>
+              <p>Weekends: 8:00 AM – 11:30 PM</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="text-xl">☕</span>
+            <div>
+              <p class="font-bold text-[#2C2724]">Cafe Amenities</p>
+              <p>High-Speed Fiber Wi-Fi • Pet Friendly Seating • Quiet Work Desks</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#menu" class="bg-[#2D3E33] text-[#FAF7F2] px-7 py-3 rounded-full text-xs font-bold tracking-wider uppercase hover:bg-[#3D5245] shadow-sm transition-all">
+            Explore Full Menu
+          </a>
+          <a href="#" class="bg-[#FAF7F2] border border-[#D9CEBF] text-[#2C2724] px-6 py-3 rounded-full text-xs font-bold tracking-wider uppercase hover:bg-[#EFE7DC] transition-all">
+            Follow on Instagram
+          </a>
+        </div>
+      </div>
+
+      <!-- Clean Interactive Reservation Card -->
+      <div class="bg-[#FAF7F2] p-8 sm:p-10 rounded-3xl border border-[#E8DFD3] shadow-sm">
+        <span class="text-xs font-bold uppercase tracking-widest text-[#9C6D3B] block mb-2">Instant Confirmation</span>
+        <h3 class="font-serif text-2xl font-bold text-[#2C2724] mb-3">Reserve a Coffee Table</h3>
+        <p class="text-xs text-[#7D7063] leading-relaxed mb-6">
+          Planning a work session, reading afternoon, or catching up over espresso? Reserve your corner.
+        </p>
+
+        <form onsubmit="event.preventDefault(); alert('Demo confirmation: Table request noted!');" class="space-y-4">
+          <div>
+            <label class="block text-xs font-bold uppercase text-[#5A5048] mb-1">Your Name</label>
+            <input type="text" placeholder="Enter guest name" class="w-full bg-white border border-[#D9CEBF] rounded-xl px-4 py-2.5 text-xs text-[#2C2724] focus:outline-none focus:border-[#9C6D3B]" required>
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-bold uppercase text-[#5A5048] mb-1">Seating Type</label>
+              <select class="w-full bg-white border border-[#D9CEBF] rounded-xl px-3 py-2.5 text-xs text-[#2C2724] focus:outline-none focus:border-[#9C6D3B]">
+                <option>Quiet Work Desk (1 Person)</option>
+                <option>Cozy Table (2 People)</option>
+                <option>Group Table (3-5 People)</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold uppercase text-[#5A5048] mb-1">Time Preference</label>
+              <select class="w-full bg-white border border-[#D9CEBF] rounded-xl px-3 py-2.5 text-xs text-[#2C2724] focus:outline-none focus:border-[#9C6D3B]">
+                <option>Morning (8 AM - 12 PM)</option>
+                <option>Afternoon (12 PM - 4 PM)</option>
+                <option>Evening (4 PM - 9 PM)</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="w-full mt-2 bg-[#9C6D3B] hover:bg-[#865B2E] text-white font-bold py-3 rounded-xl text-xs uppercase tracking-wider transition-all shadow-sm">
+            Confirm Reservation
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 bg-[#FAF7F2] border-t border-[#E8DFD3] text-center text-xs text-[#8A7D71]">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="font-serif text-lg font-bold text-[#2D3E33]">Botanical<span class="text-[#9C6D3B]">Bean.</span></p>
+      <p>© 2026 Crafted with care. Experience tranquility in every cup.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-[#2C2724]">Instagram</a>
+        <a href="#" class="hover:text-[#2C2724]">Menu PDF</a>
+        <a href="#" class="hover:text-[#2C2724]">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+          </html>
+  
